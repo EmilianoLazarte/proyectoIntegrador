@@ -1,0 +1,87 @@
+.nav__ul li a{
+    transition: all 0.5s;
+}
+.nav__ul li a:hover{
+    color: #9d5aef;
+    transition: all 0.5s;
+}
+.login li a{
+    transition: all 0.5s;
+}
+.login li a:hover{
+    color: #9d5aef;
+    transition: all 0.5s;
+}
+.card-fav__quitar i{
+    transition: all 0.3s ease-in-out;
+}
+.card-fav__quitar i:hover{
+    transform: scale(1.2,1.2);
+    transition: all 0.3s ease-in-out;
+}
+.hero__button__info{
+    transition: all 0.4s;
+}
+.hero__button__info:hover{
+    border-bottom: 2px solid white;
+    transition: all 0.4s;
+    color: gray;
+}
+.hero__button__comprar{
+    transition: all 0.4s;
+}
+.hero__button__comprar:hover{
+    background-color: white;
+    transition: all 0.4s;
+    color: black;
+}
+.button__comprar{
+    transition: all 0.1s ease-out;
+}
+.button__comprar:hover{
+    transform: scale(1.05,1.05);
+    transition: all 0.1s ease-in;
+}
+.card__info__espacio p:nth-child(2){
+    transition: all 0.5s;
+}
+.card__info__espacio p:nth-child(2):hover{
+    transform: scale(1.1,1.1);
+    transition: all 0.3s;
+}
+.menu-toggle__container__ul li:hover{
+    background-color: black;
+    transition: 0.5s;
+}
+.menu-toggle__container__ul li:nth-child(4){
+    border-radius: 0px 0px 0px 15px;
+}
+.card__info__comprar{
+    transition: all 0.4s;
+}
+.card__info__comprar:hover{
+    transform: scale(1.1,1.1);
+    transition: all 0.4s;
+    background-color: #9400FF;
+}
+.card__info__color{
+    transition: all 0.4s;
+}
+.card__info__color label:hover{
+    transform: scale(1.1,1.1);
+    transition: all 0.4s;
+}
+.footer__right__icons{
+    transition: all 0.2s;
+}
+.footer__right__icons:hover{
+    transform: scale(1.1,1.1);
+    transition: all 0.2s;
+}
+.footer__right__icons{
+    transition: all 0.4s;
+}
+.footer__right__icons i:hover{
+    color: #9400FF;
+    transition: all 0.4s;
+}

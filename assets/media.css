@@ -1,0 +1,185 @@
+@media (max-width:1350px) {
+    .card__none{
+        display: none;
+    }
+}
+@media (max-width:1200px) {
+    .hero__title{
+        padding-top: 150px;
+    }
+    #contact{
+        min-width: unset;
+        width: 90%;
+    }
+    #hero{
+        height: auto;
+        margin-top: 150px;
+        margin-bottom: 100px;
+    }
+}
+@media (max-width:1100px) {
+    .contact__escribinos{
+        min-width: unset;
+    }
+    .contact__info{
+        min-width: unset;
+    }
+    .contact__card{
+        flex-direction: row;
+        gap: 0px;
+        background-color: black;
+        border-radius: 20px;
+    }
+}
+@media (max-width:950px) {
+    .hero__info__img{
+        margin-bottom: unset;
+    }
+}
+@media (max-width:850px) {
+    .menu-toggle{
+        display: flex;
+    }
+    .nav__ul{
+        display: none;
+    }
+    .header__fav{
+        gap: 20px;
+    }
+    #menu-toggle:checked + .menu-toggle__container{
+        display: flex;
+    }
+    .header__nav{
+        margin-left: unset;
+    }
+    .footer__nav{
+        display: flex;
+    }
+    #hero{
+        flex-direction: column;
+    }
+    .hero__info{
+        width: 90%;
+    }
+    .hero__info__description{
+        width: 50%;
+    }
+    .hero__img{
+        position: absolute;
+        right: 0;
+        top: 40%;
+    }
+    #hero{
+        margin-bottom: 70px;
+    }
+    .contact__escribinos{
+        flex-direction: column;
+        height: unset;
+        width: 100%;
+    }
+    .contact__form{
+        width: 100%;
+        border-radius: 10px 10px 0px 0px;
+    }
+    .mapa{
+        width: 100%;
+    }
+}
+@media (max-width:690px) {
+    .footer{
+        flex-direction: column;
+    }
+}
+@media (max-width:610px) {
+    .sobreNosotros__info{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .sobreNosotros__descripcion{
+        width: 90%;
+        text-align: center;
+    }
+    .hero__img{
+        position: relative;
+        right: unset;
+        top: unset;
+        width: 80%;
+    }
+    .hero__info__description{
+        width: 90%;
+        text-align: center;
+    }
+    .hero__buttons{
+        width: 100%;
+    }
+    #contact{
+        margin: 20px 0px;
+    }
+    .hero__img{
+        display: none;
+    }
+    .hero__img__responsive{
+        display: flex;
+        width: 100%;
+    }
+}
+@media (max-width:455px) {
+    .footer__left{
+        flex-direction: column;
+    }
+    .footer__left__nav-copyright{
+        align-items: center;
+    }
+    .mapa{
+        width: 100%;
+    }
+    .contact__info{
+        width: 100%;
+    }
+    .contact__info h2{
+        margin: unset;
+        width: 100%;
+        text-align: center;
+    }
+    .card__img{
+        width: 100%;
+    }
+    .productos__card{
+        width: 100%;
+    }
+    .header__fav .login{
+        display: none;
+    }
+    .menu-toggle__container__ul .login-responsive{
+        display: flex;
+    }
+    .menu-toggle__container__ul li:nth-child(4){
+        border-radius: unset;
+    }
+    .menu-toggle__container__ul li:nth-child(6){
+        border-radius: 0px 0px 0px 15px;
+    }
+    .favoritos-container{
+        width: 100%;
+    }
+    .sobreNosotros__h2{
+        font-size: 35px;
+    }
+    #hero{
+        margin-top: 120px;
+    }
+}
+@media (max-width:400px) {
+    .card-fav{
+        gap: 15px;
+    }
+    .card-fav__info{
+        margin-right: unset;
+        margin-left: -35px;
+    }
+}
+@media (max-width:350px) {
+    .footer__left__nav-copyright nav{
+        gap: 5px;
+    }
+}

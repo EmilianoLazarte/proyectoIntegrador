@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+:root{
+    --var-text-color:rgb(223, 223, 223);
+}
+
+*{
+    text-decoration: none;
+    box-sizing: border-box;
+    color: var(--var-text-color);
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background: #252525;
+    background-attachment: fixed;
+    width: 100%;
+}
+main{
+    width: 500px;
+    height: 750px;
+    margin: 70px auto;
+    background-color: #10101054;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+/* ===== LOGIN Y SIGNUP ===== */
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.container__title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto Mono', serif;
+    margin-bottom: 30px;
+}
+
+.container__title .logo{
+    height: 130px;
+}
+
+.container__form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+.container__form__user,
+.container__form__password{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: white;
+    border-radius: 40px;
+    width: 390px;
+    height: 45px;
+    gap: 10px;
+    padding-left: 20px;
+}
+.container__form__user i,
+.container__form__password i{
+    color: #404040;
+}
+.container__form input{
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: black;
+    font-family: 'Roboto Mono', serif;
+}
+.container__form .login{
+    margin-top: 15px;
+    background-color: #101010;
+    color: white;
+    cursor: pointer;
+    width: 390px;
+    height: 45px;
+    border: none;
+    border-radius: 40px;
+}
+.container__form input::placeholder{
+    font-family: 'Roboto Mono', serif;
+    font-size: 15px;
+    color: #454545;
+}
+.container__login-with{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.divisor{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+.div{
+    width: 170px;
+    height: 2px;
+    background-color: white;
+}
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.facebook, .google{
+    width: 180px;
+    height: 50px;
+    border-radius: 5px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.facebook{
+    background-color: #3b5998;
+}
+.google{
+    background-color: whitesmoke;
+    color: rgb(88, 88, 88);
+}
+.facebook i{
+    font-size: 20px;
+}
+.google img{
+    height: 20px;
+}
+
+.container p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+.container p a{
+    color: #5f7fc5;
+    text-decoration: underline;
+}
+.container__form__pass{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.forgot-password{
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    text-align: end;
+    color: #c7c7c7;
+}
+.terminos{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-family: 'Roboto Mono', serif;
+    font-size: 14px;
+    margin: 20px 0px;
+    gap: 10px;
+    width: 100%;
+}
+.cards a{
+    transition: all 0.3s;
+}
+.cards a:hover{
+    transform: scale(1.1,1.1);
+    transition: all 0.3s;
+}
+.forgot-password{
+    transition: all 0.2s;
+}
+.forgot-password:hover{
+    color: gray;
+    transition: all 0.2s;
+}
+.container__form .login{
+    transition: all 0.2s;
+}
+.container__form .login:hover{
+    transform: scale(1.05,1.1);
+    transition: all 0.2s;
+}
+.container p a{
+    transition: all 0.3s;
+}
+.container p a:hover{
+    color: #3b5998;
+    transition: all 0.3s;
+}
+
+
+
+@media (max-width:1200px) {
+    main{
+        margin: 20px auto;
+    }
+}
+@media (max-width:500px) {
+    main{
+        width: 100%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        background-color: unset;
+    }
+    .container__form__user,
+    .container__form__pass,
+    .container__form__password,
+    .container__form .login{
+        width: 320px;
+    }
+    .div{
+        width: 135px;
+    }
+    .facebook,
+    .google{
+        width: 143px;
+    }
+    .container__title{
+        margin-bottom: unset;
+    }
+}

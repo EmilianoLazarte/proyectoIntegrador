@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>argStore</title>
+    <link rel="stylesheet" href="/assets/styles.css">
+    <script src="https://kit.fontawesome.com/bfbd63ce35.js" crossorigin="anonymous"></script>
+    <link href="/assets/img/logo_transparent.png" type="image" rel="icon">
+    <link rel="stylesheet" href="/assets/media.css">
+    <link rel="stylesheet" href="/assets/animaciones.css">
+</head>
+
+<body>
+    <header>
+        <a href="#"><img src="/assets/img/logo_transparent.png" alt="Logo argStore" class="logo"></a>
+        <nav class="header__nav">
+            <ul class="nav__ul">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#sobreNosotros">About Us</a></li>
+                <li><a href="#productos">Smartphones</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header__fav">
+            <ul class="login">
+                <li><a href="login.html">Login</a></li>
+                <li><a href="signup.html">Sign Up</a></li>
+            </ul>
+            <label for="favoritos"><i class="fa-solid fa-star"></i></label>
+            <input type="checkbox" name="favoritos" id="favoritos">
+            <div class="favoritos-container">
+                <h2 class="favoritos__h2">Tus Favoritos</h2>
+                <div class="total-favoritos">
+                    <p class="precio-total"><i class="fa-solid fa-dollar-sign"></i> 356.504</p>
+                    <p class="numero-favs"><i class="fa-solid fa-star"></i> 4</p>
+                </div>
+                <div class="productos-favoritos">
+                    <div class="card-fav">
+                        <img src="/assets/img/a53.webp" alt="">
+                        <div class="card-fav__info">
+                            <p>Galaxy A53 5G</p>
+                            <p class="card-fav__info__color">Color: <span class="rose"></span> Rose</p>
+                            <div class="card__info__espacio">
+                                <p>128 GB</p>
+                                <P>256 GB</P>
+                            </div>
+                        </div>
+                        <div class="card-fav__quitar">
+                            <i class="fa-solid fa-x"></i>
+                            <p class="card__info__precio">$189.900</p>
+                        </div>
+                    </div>
+                    <div class="card-fav">
+                        <img src="/assets/img/s21.webp" alt="">
+                        <div class="card-fav__info">
+                            <p>Galaxy S21 5G</p>
+                            <p class="card-fav__info__color">Color: <span class="rose"></span> Rose</p>
+                            <div class="card__info__espacio">
+                                <p>128 GB</p>
+                                <P>256 GB</P>
+                            </div>
+                        </div>
+                        <div class="card-fav__quitar">
+                            <i class="fa-solid fa-x"></i>
+                            <p class="card__info__precio">$159.900</p>
+                        </div>
+                    </div>
+                    <div class="card-fav">
+                        <img src="/assets/img/s22+.webp" alt="">
+                        <div class="card-fav__info">
+                            <p>Galaxy S22 Plus</p>
+                            <p class="card-fav__info__color">Color: <span class="rose"></span> Rose</p>
+                            <div class="card__info__espacio">
+                                <p>128 GB</p>
+                                <P>256 GB</P>
+                            </div>
+                        </div>
+                        <div class="card-fav__quitar">
+                            <i class="fa-solid fa-x"></i>
+                            <p class="card__info__precio">$219.900</p>
+                        </div>
+                    </div>
+                    <div class="card-fav">
+                        <img src="/assets/img/m13.webp" alt="">
+                        <div class="card-fav__info">
+                            <p>Galaxy M13</p>
+                            <p class="card-fav__info__color">Color: <span class="rose"></span> Rose</p>
+                            <div class="card__info__espacio">
+                                <p>64 GB</p>
+                                <P>128 GB</P>
+                            </div>
+                        </div>
+                        <div class="card-fav__quitar">
+                            <i class="fa-solid fa-x"></i>
+                            <p class="card__info__precio">$39.900</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="button__comprar">COMPRAR</button>
+            </div>
+            <label for="menu-toggle" class="menu-toggle"><i class="fa-sharp fa-solid fa-bars"></i></label>
+            <input type="checkbox" name="menu-toggle" id="menu-toggle">
+            <div class="menu-toggle__container">
+                <ul class="menu-toggle__container__ul">
+                    <li><a href="#hero"><i class="fa-solid fa-house"></i>Home</a></li>
+                    <li><a href="#sobreNosotros"><i class="fa-sharp fa-solid fa-circle-info"></i>About Us</a></li>
+                    <li><a href="#productos"><i class="fa-solid fa-mobile"></i>Smartphones</a></li>
+                    <li><a href="#contact"><i class="fa-solid fa-phone"></i>Contact</a></li>
+                    <li class="login-responsive"><a href="login.html"><i
+                                class="fa-solid fa-right-to-bracket"></i>Login</a></li>
+                    <li class="login-responsive"><a href="signup.html"><i class="fa-solid fa-pencil"></i>Sign Up</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main class=" main">
+        <section id="hero">
+            <div class="hero__info">
+                <p>Nuevo</p>
+                <img src="/assets/img/ultra-text-logo.png" alt="" class="hero__info__img">
+                <div class="hero__img hero__img__responsive">
+                    <img src="/assets/img/61YlrrL-HqL._AC_SL1000_-removebg-preview.webp" alt="">
+                </div>
+                <p class="hero__info__description">Conocé al Samsung Galaxy S22 Ultra, con
+                    el poder del Note. El marco pulido, delgado y audaz, rodea la forma
+                    extruida para lograr una simetría elegante. Y la cámara lineal,
+                    acentuada por anillos de lentes espejados, parece flotar en su lugar.
+                </p>
+                <div class="hero__buttons">
+                    <button class="hero__button__info">Más información</button>
+                    <button class="hero__button__comprar">Comprar</button>
+                </div>
+            </div>
+            <div class="hero__img">
+                <img src="/assets/img/61YlrrL-HqL._AC_SL1000_-removebg-preview.webp" alt="">
+            </div>
+        </section>
+        <section id="sobreNosotros">
+            <h2 class="sobreNosotros__h2">¿Qué es argStore?</h2>
+            <div class="sobreNosotros__info">
+                <img src="/assets/img/sobreNosotros-img.png" alt="" class="sobreNosotros__img">
+                <div class="sobreNosotros__descripcion">
+                    <p>argStore es una plataforma de ventas online de smartphones,
+                        smartwatchs, tablets y todo tipo de accesorios.
+                        Contamos con más de 10 años de experiencia en el rubro y mas
+                        de 2700 ventas exitosas.</p>
+                    <div class="sobreNosotros__beneficios">
+                        <div class="sobreNosotros__beneficios__card">
+                            <img src="/assets/img/aprobado.png" alt="">
+                            <p>Hasta 12 cuotas sin interés.</p>
+                        </div>
+                        <div class="sobreNosotros__beneficios__card">
+                            <img src="/assets/img/aprobado.png" alt="">
+                            <p>Entregas a todo el país.</p>
+                        </div>
+                        <div class="sobreNosotros__beneficios__card">
+                            <img src="/assets/img/aprobado.png" alt="">
+                            <p>Garantía de un año en todos nuestros productos.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="productos">
+            <h2 class="productos__h2">Novedades</h2>
+            <div class="productos-container">
+                <div class="productos__card">
+                    <img src="/assets/img/s22.webp" alt="S22" class="card__img">
+                    <div class="card__info">
+                        <p class="card__info__nombre">Galaxy S22</p>
+                        <div class="card__info__color">
+                            <label for="purple" class="purple-color"></label>
+                            <label for="white" class="orange-color"></label>
+                            <label for="grey" class="grey-color"></label>
+                            <label for="blue" class="blue-color"></label>
+                        </div>
+                        <div class="card__info__espacio">
+                            <p>128 GB</p>
+                            <P>256 GB</P>
+                        </div>
+                        <p class="card__info__precio">$189.900 <i class="fa-solid fa-star"></i></p>
+                        <button class="card__info__comprar">COMPRAR</button>
+                    </div>
+                </div>
+                <div class="productos__card">
+                    <img src="/assets/img/s22+.webp" alt="S22" class="card__img">
+                    <div class="card__info">
+                        <p class="card__info__nombre">Galaxy S22 Plus</p>
+                        <div class="card__info__color">
+                            <label for="purple" class="purple-color"></label>
+                            <label for="white" class="black-color"></label>
+                            <label for="grey" class="grey-color"></label>
+                            <label for="blue" class="blue-color"></label>
+                        </div>
+                        <div class="card__info__espacio">
+                            <p>128 GB</p>
+                            <P>256 GB</P>
+                        </div>
+                        <p class="card__info__precio">$219.900 <i class="fa-solid fa-star"></i></p>
+                        <button class="card__info__comprar">COMPRAR</button>
+                    </div>
+                </div>
+                <div class="productos__card">
+                    <img src="/assets/img/s22ultra.webp" alt="S22" class="card__img">
+                    <div class="card__info">
+                        <p class="card__info__nombre">Galaxy S22 Ultra</p>
+                        <div class="card__info__color">
+                            <label for="purple" class="purple-color"></label>
+                            <label for="white" class="white-color"></label>
+                            <label for="grey" class="orange-color"></label>
+                            <label for="blue" class="blue-color"></label>
+                        </div>
+                        <div class="card__info__espacio">
+                            <p>256 GB</p>
+                            <P>512 GB</P>
+                        </div>
+                        <p class="card__info__precio">$289.900 <i class="fa-solid fa-star"></i></p>
+                        <button class="card__info__comprar">COMPRAR</button>
+                    </div>
+                </div>
+                <div class="productos__card">
+                    <img src="/assets/img/a53.webp" alt="S22" class="card__img">
+                    <div class="card__info">
+                        <p class="card__info__nombre">Galaxy A53 5G</p>
+                        <div class="card__info__color">
+                            <label for="purple" class="purple-color"></label>
+                            <label for="grey" class="black-color"></label>
+                            <label for="blue" class="blue-color"></label>
+                        </div>
+                        <div class="card__info__espacio">
+                            <p>64 GB</p>
+                            <P>128 GB</P>
+                        </div>
+                        <p class="card__info__precio">$89.900 <i class="fa-solid fa-star"></i></p>
+                        <button class="card__info__comprar">COMPRAR</button>
+                    </div>
+                </div>
+                <div class="productos__card">
+                    <img src="/assets/img/s21.webp" alt="S22" class="card__img">
+                    <div class="card__info">
+                        <p class="card__info__nombre">Galaxy S21 5G</p>
+                        <div class="card__info__color">
+                            <label for="purple" class="purple-color"></label>
+                            <label for="white" class="white-color"></label>
+                            <label for="grey" class="grey-color"></label>
+                            <label for="blue" class="blue-color"></label>
+                        </div>
+                        <div class="card__info__espacio">
+                            <p>128 GB</p>
+                            <P>256 GB</P>
+                        </div>
+                        <p class="card__info__precio">$159.900 <i class="fa-solid fa-star"></i></p>
+                        <button class="card__info__comprar">COMPRAR</button>
+                    </div>
+                </div>
+                <div class="productos__card">
+                    <img src="/assets/img/s21ultra.webp" alt="S22" class="card__img">
+                    <div class="card__info">
+                        <p class="card__info__nombre">Galaxy S21 Ultra</p>
+                        <div class="card__info__color">
+                            <label for="purple" class="purple-color"></label>
+                            <label for="white" class="white-color"></label>
+                            <label for="grey" class="grey-color"></label>
+                            <label for="blue" class="black-color"></label>
+                        </div>
+                        <div class="card__info__espacio">
+                            <p>128 GB</p>
+                            <P>256 GB</P>
+                        </div>
+                        <p class="card__info__precio">$179.900 <i class="fa-solid fa-star"></i></p>
+                        <button class="card__info__comprar">COMPRAR</button>
+                    </div>
+                </div>
+                <div class="productos__card">
+                    <img src="/assets/img/m23.webp" alt="S22" class="card__img">
+                    <div class="card__info">
+                        <p class="card__info__nombre">Galaxy M23</p>
+                        <div class="card__info__color">
+                            <label for="purple" class="black-color"></label>
+                            <label for="white" class="white-color"></label>
+                            <label for="grey" class="grey-color"></label>
+                            <label for="blue" class="blue-color"></label>
+                        </div>
+                        <div class="card__info__espacio">
+                            <p>32 GB</p>
+                            <P>64 GB</P>
+                        </div>
+                        <p class="card__info__precio">$49.900 <i class="fa-solid fa-star"></i></p>
+                        <button class="card__info__comprar">COMPRAR</button>
+                    </div>
+                </div>
+                <div class="productos__card">
+                    <img src="/assets/img/m13.webp" alt="S22" class="card__img">
+                    <div class="card__info">
+                        <p class="card__info__nombre">Galaxy M13</p>
+                        <div class="card__info__color">
+                            <label for="purple" class="purple-color"></label>
+                            <label for="white" class="orange-color"></label>
+                            <label for="grey" class="grey-color"></label>
+                        </div>
+                        <div class="card__info__espacio">
+                            <p>128 GB</p>
+                            <P>256 GB</P>
+                        </div>
+                        <p class="card__info__precio">$39.900 <i class="fa-solid fa-star"></i></p>
+                        <button class="card__info__comprar">COMPRAR</button>
+                    </div>
+                </div>
+                <div class="productos__card card__none">
+                    <img src="/assets/img/a04.webp" alt="A04" class="card__img">
+                    <div class="card__info">
+                        <p class="card__info__nombre">Galaxy A04</p>
+                        <div class="card__info__color">
+                            <label for="purple" class="purple-color"></label>
+                            <label for="white" class="orange-color"></label>
+                            <label for="grey" class="grey-color"></label>
+                            <label for="grey" class="black-color"></label>
+                        </div>
+                        <div class="card__info__espacio">
+                            <p>32 GB</p>
+                            <P>64 GB</P>
+                        </div>
+                        <p class="card__info__precio">$29.900 <i class="fa-solid fa-star"></i></p>
+                        <button class="card__info__comprar">COMPRAR</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <h2 class="contact__h2">Contactanos</h2>
+            <div class="contact__info">
+                <div class="contact__card">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p>129 West 21th Street, Suite 721 New York, NY</p>
+                </div>
+                <div class="contact__card">
+                    <i class="fa-solid fa-paper-plane"></i>
+                    <p>+54 9 1143950292</p>
+                </div>
+                <div class="contact__card">
+                    <i class="fa-solid fa-envelope"></i>
+                    <p>argstore@gmail.com</p>
+                </div>
+                <div class="contact__card">
+                    <i class="fa-sharp fa-solid fa-globe"></i>
+                    <p>www.argstore.com.ar</p>
+                </div>
+            </div>
+            <div class="contact__escribinos">
+                <div class="contact__form">
+                    <h3 class="contact__form__h3">Envianos un mensaje</h3>
+                    <form>
+                        <div class="container__form__input">
+                            <i class="fa-solid fa-user"></i>
+                            <input type="text" name="nombre" id="nombre" placeholder="Nombre" required>
+                        </div>
+                        <div class="container__form__input">
+                            <i class="fa-solid fa-lock"></i>
+                            <input type="email" name="email" id="email" placeholder="E-mail" required>
+                        </div>
+                        <textarea name="mensaje" placeholder="Mensaje" class="textarea" required></textarea>
+                        <input type="submit" value="Submit" class="input__submit">
+                    </form>
+                </div>
+                <div class="mapa">
+                    <div style="width: 100%;"><iframe scrolling="no" marginheight="0" marginwidth="0"
+                            src="https://maps.google.com/maps?width=100%25&amp;height=400&amp;hl=en&amp;q=129%20West%2021th%20Street,%20Suite%20721%20New%20York,%20NY+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+                            width="100%" height="400" frameborder="0"><a
+                                href="https://www.maps.ie/distance-area-calculator.html">measure area map</a></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="footer__left">
+                <a href="#hero"><img src="/assets/img/logo_transparent.png" alt="Logo" class="logo"></a>
+                <div class="footer__left__nav-copyright">
+                    <nav class="footer__nav">
+                        <ul class="nav__ul footer__nav">
+                            <li><a href="#hero">Home</a></li>
+                            <li><a href="#sobreNosotros">About Us</a></li>
+                            <li><a href="#productos">Productos</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </nav>
+                    <p class="footer__copy__p">argStore <i class="fa-regular fa-registered"></i>. All rights
+                        reserved.
+                    </p>
+                </div>
+            </div>
+            <div class="footer__right">
+                <a href="#" class="footer__right__icons"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#" class="footer__right__icons"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#" class="footer__right__icons"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#" class="footer__right__icons"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </footer>
+    </main>
+    <script src="https://kit.fontawesome.com/bfbd63ce35.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
