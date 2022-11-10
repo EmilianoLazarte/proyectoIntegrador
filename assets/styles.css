@@ -525,6 +525,7 @@ main{
     font-size: 45px;
     background: linear-gradient(to right,#9d5aef,plum);
     background-clip: text;
+    -moz-background-clip: text;
     color: transparent;  
 }
 .contact__info{
