@@ -345,6 +345,7 @@ main{
 .sobreNosotros__h2{
     background: linear-gradient(to right,#9d5aef,plum);
     background-clip: text;
+    -webkit-background-clip: text;
     color: transparent;
     font-family: 'Samsung Sharp Sans', serif;
     font-weight: 600;
@@ -411,7 +412,8 @@ main{
     font-size: 45px;
     background: linear-gradient(to right,#9d5aef,plum);
     background-clip: text;
-    color: transparent;  
+    color: transparent;
+    -webkit-background-clip: text;  
 }
 .productos__card{
     display: flex;
@@ -525,7 +527,7 @@ main{
     font-size: 45px;
     background: linear-gradient(to right,#9d5aef,plum);
     background-clip: text;
-    -moz-background-clip: text;
+    -webkit-background-clip: text;
     color: transparent;  
 }
 .contact__info{
